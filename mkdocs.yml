@@ -1,4 +1,9 @@
 site_name: Calculation Docs
+site_url: https://arcook-intel.github.io/LearnDocumentation/
+
+# Repository
+repo_url: https://github.com/arcook-intel/LearnDocumentation/
+edit_uri: 'edit/main/docs/'
 
 theme:
   name: material
@@ -11,10 +16,3 @@ plugins:
 extra:
   version:
     provider: mike
-
-nav:
-  - Calculation Docs 2: index.md
-  - tutorials.md
-  - How-To Guides: how-to-guides.md
-  - reference.md
-  - explanation.md
