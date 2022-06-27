@@ -8,6 +8,8 @@ edit_uri: 'edit/main/docs/'
 theme:
   name: material
   custom_dir: overrides
+  features:
+    - navigation.instant
 
 plugins:
   - mkdocstrings
