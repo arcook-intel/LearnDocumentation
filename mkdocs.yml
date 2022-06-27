@@ -1,13 +1,18 @@
 site_name: Calculation Docs
 
 theme:
-  name: "material"
+  name: material
+  custom_dir: overrides
 
 plugins:
   - mkdocstrings
 
+extra:
+  version:
+    provider: mike
+
 nav:
-  - Calculation Docs: index.md
+  - Calculation Docs 2.0: index.md
   - tutorials.md
   - How-To Guides: how-to-guides.md
   - reference.md
