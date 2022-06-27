@@ -21,7 +21,8 @@ Create a virtual env
 python3.7.4 -m venv venv
 source venv/bin/activate.csh
 pip install  -i https://intelpypi.intel.com/root/pypi -r requirements.txt
-mike deploy <major>.<minor>
+# NOTE: If you want to test locally remove the --push option
+mike deploy --push <major>.<minor>
 
 # To see all versions deployed
 mike list
